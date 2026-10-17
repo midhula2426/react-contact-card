@@ -2,7 +2,7 @@
   min-height: 100vh;
   padding: 40px 20px;
   text-align: center;
-  background: #f5f7fa;
+  background: linear-gradient(135deg, #e0c3fc, #f5f7fa, #c2e9fb);
 }
 
 h1 {
@@ -23,6 +23,7 @@ h1 {
   background: white;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border: 2px solid #e0d7ff;
 }
 
 .card h2 {
@@ -31,4 +32,20 @@ h1 {
 
 .card p {
   margin: 10px 0;
+}
+.card{
+  transition: transform 0.3s ease'
+ box-shadow 0.3s ease;
+}
+.card:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #d8b4fe;
+  margin-bottom: 15px;
 }
