@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ContactCard from "./ContactCard";
+import ContactCard from "./contactcard.jsx";
 import "./App.css";
 
 function App() {
